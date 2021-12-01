@@ -1,0 +1,45 @@
+.home-title {
+   font-size: 30px;
+    margin: 100px 50px 40px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.container-cards {
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 0;
+}
+
+
+.hour {
+    font-size: 14px;
+     margin: 30px 30px -100px 30px;
+     text-align: right;
+    
+     
+ }
+
+form {
+    display: block;
+   
+}
+select {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.languages {
+    text-align: right;
+    margin: 30px;
+}
+
+
+
+
+

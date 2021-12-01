@@ -1,0 +1,43 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;  
+  }
+  
+.card {
+    min-width: 200px;
+    max-width: 250px;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    cursor: pointer;
+    min-height: 400px; 
+    max-height: max-content;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.card h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgb(0, 132, 255);
+}
+.card h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
