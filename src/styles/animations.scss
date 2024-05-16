@@ -1,0 +1,63 @@
+:root {
+  --direction-multiplier: 1;
+}
+
+[dir='rtl'] {
+  --direction-multiplier: -1;
+}
+
+@keyframes slide {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    left: calc(100% * var(--direction-multiplier));
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    left: calc(-100% * var(--direction-multiplier));
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes opacity-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity-animation-reverse {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.opacity-animation {
+  animation: opacity-animation 1s ease-in-out;
+}
+
+.opacity-animation-fast {
+  animation: opacity-animation 0.2s ease-in-out;
+}
+
+.opacity-animation-reverse {
+  animation: opacity-animation-reverse 1s ease-in-out;
+}

@@ -1,0 +1,22 @@
+{
+  "stock.label.date": "Délai de livraison estimé",
+  "buton.label.cart": "Ajouter au panier",
+  "stock.label.available": "Disponible",
+  "buton.label.favorite": "Enregistrer dans les favoris",
+  "section.name.exterior": "Extérieur",
+  "buton.label.reset.confirmation": "Êtes-vous sûr de vouloir recommencer?",
+  "buton.label.reset": "Réinitialiser",
+  "section.name.lid&door": "Couvercle et porte",
+  "section.name.interior": "Variation de couleur",
+  "attribute.name.variants": "Variantes de couleur",
+  "buton.label.no": "NON",
+  "buton.label.yes": "OUI",
+  "stock.label.unavailable": "Non disponible",
+  "product.name.missing": "nom du produit manquant",
+  "price.missing": "prix manquant",
+  "form.button.instock": "En stock",
+  "form.button.reset": "Réinitialiser",
+  "buton.label.edit": "Modifier",
+  "buton.label.finish": "Terminer",
+  "summary.button.addtocart": "Ajouter au panier"
+}

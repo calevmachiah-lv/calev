@@ -1,0 +1,21 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getRecapOpenPercentage = exports.getDisplayRecap = exports.getRecap = exports.getTutorialSlideDirection = exports.getTutorialStepsNumber = exports.getTutorialStep = exports.getDisplayTutorial = exports.getTutorial = void 0;
+const memoize_one_1 = __importDefault(require("memoize-one"));
+exports.getTutorial = (0, memoize_one_1.default)((state) => state.flow.tutorial);
+const getDisplayTutorial = (state) => state.flow.tutorial.displayTutorial;
+exports.getDisplayTutorial = getDisplayTutorial;
+const getTutorialStep = (state) => state.flow.tutorial.tutorialStep;
+exports.getTutorialStep = getTutorialStep;
+const getTutorialStepsNumber = (state) => state.flow.tutorial.tutorialStepsNumber;
+exports.getTutorialStepsNumber = getTutorialStepsNumber;
+const getTutorialSlideDirection = (state) => state.flow.tutorial.tutorialSlideDirection;
+exports.getTutorialSlideDirection = getTutorialSlideDirection;
+exports.getRecap = (0, memoize_one_1.default)((state) => state.flow.recap);
+const getDisplayRecap = (state) => state.flow.recap.displayRecap;
+exports.getDisplayRecap = getDisplayRecap;
+const getRecapOpenPercentage = (state) => state.flow.recap.recapOpenPercentage;
+exports.getRecapOpenPercentage = getRecapOpenPercentage;

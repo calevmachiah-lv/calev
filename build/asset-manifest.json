@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3fb45ba5.css",
+    "main.js": "/static/js/main.b9d2c08d.js",
+    "static/media/summaryImg.png": "/static/media/summaryImg.43a94d208d7703c9af57.png",
+    "static/media/LouisVuitton-Medium.ttf": "/static/media/LouisVuitton-Medium.ae917de6e09ee72e1c4c.ttf",
+    "static/media/LouisVuitton-Demi.ttf": "/static/media/LouisVuitton-Demi.668f809333c6892fcf8c.ttf",
+    "static/media/LouisVuitton-Regular.ttf": "/static/media/LouisVuitton-Regular.4c1a61866269a9a225be.ttf",
+    "static/media/picturePlaceholder.png": "/static/media/picturePlaceholder.91a2f3110a8ac9bba61e.png",
+    "static/media/lvLoader.gif": "/static/media/lvLoader.9d2888d0d60c5ab73904.gif",
+    "static/media/product.png": "/static/media/product.f5ae750690291dac1e3b.png",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.3fb45ba5.css.map": "/static/css/main.3fb45ba5.css.map",
+    "main.b9d2c08d.js.map": "/static/js/main.b9d2c08d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fb45ba5.css",
+    "static/js/main.b9d2c08d.js"
+  ]
+}
